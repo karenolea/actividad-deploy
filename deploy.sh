@@ -10,7 +10,8 @@ git init
 git add -A
 git commit -m 'deploy'
 # si los cambios se suben a https://<USERNAME>.github.io/ ejecutar lo siguiente
-git push -f git@github.com:karenolea/actividad-deploy.github.git master
+#https://github.com/karenolea/actividad-deploy.git
+git push -f https://github.com/karenolea/actividad-deploy.git master:gh-pages
 read -p "Cambios actualizados en Bitbucket. Presione [Enter] para
 continuar..."
 # si los cambios se suben a https://<USERNAME>.github.io/<REPO> ejecutar lo siguiente
